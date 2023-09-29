@@ -1,0 +1,1 @@
+position_change(1920 / 2, 1080 / 1.5, oPlay, true);
