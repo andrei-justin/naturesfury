@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oMalePlayer",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_ground",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sMaleCharacterIdle",
-    "path": "sprites/sMaleCharacterIdle/sMaleCharacterIdle.yy",
+    "name": "spr_ground",
+    "path": "sprites/spr_ground/spr_ground.yy",
   },
   "spriteMaskId": null,
   "visible": true,
