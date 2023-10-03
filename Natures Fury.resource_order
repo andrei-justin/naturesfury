@@ -34,13 +34,22 @@
     {"name":"oFemalePlayer","order":6,"path":"objects/oFemalePlayer/oFemalePlayer.yy",},
     {"name":"spr_ground","order":27,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"oTyphoon","order":14,"path":"objects/oTyphoon/oTyphoon.yy",},
+<<<<<<< HEAD
+    {"name":"spr_cursor","order":30,"path":"sprites/spr_cursor/spr_cursor.yy",},
+=======
     {"name":"obj_back_btn","order":26,"path":"objects/obj_back_btn/obj_back_btn.yy",},
+>>>>>>> f787a939b1e23b6746deef5cec11b471e5b5dfd8
     {"name":"oMaleCharacter","order":17,"path":"objects/oMaleCharacter/oMaleCharacter.yy",},
+    {"name":"fnt_name_creator","order":2,"path":"fonts/fnt_name_creator/fnt_name_creator.yy",},
     {"name":"sMainMenu","order":13,"path":"sprites/sMainMenu/sMainMenu.yy",},
     {"name":"sSoundON","order":12,"path":"sprites/sSoundON/sSoundON.yy",},
     {"name":"sCharacterSelectionBg","order":16,"path":"sprites/sCharacterSelectionBg/sCharacterSelectionBg.yy",},
     {"name":"rDisasterSelection","order":4,"path":"rooms/rDisasterSelection/rDisasterSelection.yy",},
+<<<<<<< HEAD
+    {"name":"rm_loading_screen","order":6,"path":"rooms/rm_loading_screen/rm_loading_screen.yy",},
+=======
     {"name":"spr_back_btn","order":30,"path":"sprites/spr_back_btn/spr_back_btn.yy",},
+>>>>>>> f787a939b1e23b6746deef5cec11b471e5b5dfd8
     {"name":"spr_female_character_run","order":28,"path":"sprites/spr_female_character_run/spr_female_character_run.yy",},
     {"name":"spr_confirmation_yes","order":25,"path":"sprites/spr_confirmation_yes/spr_confirmation_yes.yy",},
     {"name":"spr_confirmation_bg","order":24,"path":"sprites/spr_confirmation_bg/spr_confirmation_bg.yy",},
@@ -49,6 +58,7 @@
     {"name":"sMaleCharacterIdle","order":7,"path":"sprites/sMaleCharacterIdle/sMaleCharacterIdle.yy",},
     {"name":"Fire","order":1,"path":"particles/Fire/Fire.yy",},
     {"name":"obj_confirmation","order":21,"path":"objects/obj_confirmation/obj_confirmation.yy",},
+    {"name":"obj_character_name","order":27,"path":"objects/obj_character_name/obj_character_name.yy",},
     {"name":"obj_ground","order":25,"path":"objects/obj_ground/obj_ground.yy",},
     {"name":"sSoundOFF","order":11,"path":"sprites/sSoundOFF/sSoundOFF.yy",},
     {"name":"oContinue","order":18,"path":"objects/oContinue/oContinue.yy",},
@@ -68,6 +78,7 @@
     {"name":"sMenuObjSpr","order":5,"path":"sprites/sMenuObjSpr/sMenuObjSpr.yy",},
     {"name":"oSelectedCharacter","order":8,"path":"objects/oSelectedCharacter/oSelectedCharacter.yy",},
     {"name":"oSelectedCharacterFooter","order":20,"path":"objects/oSelectedCharacterFooter/oSelectedCharacterFooter.yy",},
+    {"name":"obj_name_creator","order":26,"path":"objects/obj_name_creator/obj_name_creator.yy",},
     {"name":"sPause","order":9,"path":"sprites/sPause/sPause.yy",},
     {"name":"sGrass","order":4,"path":"sprites/sGrass/sGrass.yy",},
     {"name":"sContinue","order":21,"path":"sprites/sContinue/sContinue.yy",},
