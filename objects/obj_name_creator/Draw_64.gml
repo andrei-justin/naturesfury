@@ -1,6 +1,8 @@
+draw_sprite(spr_naming_bg, 0, 625, 100);
+
 draw_set_font(fnt_name_creator);
 fontSize = font_get_size(fnt_name_creator);
-BUFFER = ceil(fontSize / 2);
+BUFFER = ceil(fontSize / 1);
 
 #region
 
