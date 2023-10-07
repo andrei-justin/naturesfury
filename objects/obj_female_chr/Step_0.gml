@@ -52,7 +52,7 @@ y = y + vsp;
 // Animation 
 if (!place_meeting(x,y+1,obj_ground))
 {
-	sprite_index = spr_female_char_idle;
+	sprite_index = obj_female_chr;
 	image_speed = 0;
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 	
@@ -62,10 +62,10 @@ else{
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = spr_female_char_idle;
+		sprite_index = obj_female_chr;
 	}
 	else{
-		sprite_index = spr_female_char_run;
+		sprite_index = obj_female_chr;
 	}
 }
 
