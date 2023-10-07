@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sMmBg",
-  "bbox_bottom": 2924,
+  "bbox_bottom": 413,
   "bbox_left": 0,
-  "bbox_right": 6499,
+  "bbox_right": 735,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"037ef69a-b58f-439c-a503-5a5852cf203a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dfc5a788-07cc-4baa-8a29-306e1feab0f7",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2925,
+  "height": 414,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a3fd7aa-a98e-4491-a152-a6bca998dbd0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d565e5e8-95e0-49d9-9d81-4048f006ce19","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"037ef69a-b58f-439c-a503-5a5852cf203a","path":"sprites/sMmBg/sMmBg.yy",},},},"Disabled":false,"id":"971bb2a0-3dc0-435f-bd04-81ba2a567fe0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dfc5a788-07cc-4baa-8a29-306e1feab0f7","path":"sprites/sMmBg/sMmBg.yy",},},},"Disabled":false,"id":"b0d8ffa3-aca5-4070-8a9f-23f755487867","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 6500,
+  "width": 736,
 }
