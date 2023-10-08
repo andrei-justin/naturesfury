@@ -13,6 +13,7 @@
     {"name":"inst_52AE3417","path":"rooms/rSelectedCharacter/rSelectedCharacter.yy",},
     {"name":"inst_579BC539","path":"rooms/rSelectedCharacter/rSelectedCharacter.yy",},
     {"name":"inst_5DD20AE5","path":"rooms/rSelectedCharacter/rSelectedCharacter.yy",},
+    {"name":"inst_46B03537","path":"rooms/rSelectedCharacter/rSelectedCharacter.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,7 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46CEF78A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSelectedCharacter2","path":"objects/oSelectedCharacter2/oSelectedCharacter2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":293.0,"y":490.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46B03537","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fade_in2","path":"objects/obj_fade_in2/obj_fade_in2.yy",},"properties":[],"rotation":0.0,"scaleX":1.9375,"scaleY":1.8125,"x":64.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":"_filter_large_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Radius","type":0,"value":"10",},

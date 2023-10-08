@@ -3,6 +3,6 @@
 	
 	if (image_alpha >= 1.0)
 	{
-		room_goto(rCharacterSelection);
+		room_goto(rSelectedCharacter);
 	}
 }
