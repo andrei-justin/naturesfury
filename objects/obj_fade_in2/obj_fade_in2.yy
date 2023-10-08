@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "LoadingScreen(selectedcharacter)",
-    "path": "folders/Objects/LoadingScreen(selectedcharacter).yy",
+    "name": "LoadingScreen(selectcharacter)",
+    "path": "folders/Objects/LoadingScreen(selectcharacter).yy",
   },
   "parentObjectId": null,
   "persistent": false,

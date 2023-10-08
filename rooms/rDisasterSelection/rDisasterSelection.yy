@@ -14,6 +14,7 @@
     {"name":"inst_6EBADED","path":"rooms/rDisasterSelection/rDisasterSelection.yy",},
     {"name":"inst_4AE97FBF","path":"rooms/rDisasterSelection/rDisasterSelection.yy",},
     {"name":"inst_48A300E0","path":"rooms/rDisasterSelection/rDisasterSelection.yy",},
+    {"name":"inst_6DA50C4F","path":"rooms/rDisasterSelection/rDisasterSelection.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6EBADED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confirmation_yes","path":"objects/obj_confirmation_yes/obj_confirmation_yes.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":864.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AE97FBF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confirmation_no","path":"objects/obj_confirmation_no/obj_confirmation_no.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":544.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48A300E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_confirmation_text","path":"objects/obj_confirmation_text/obj_confirmation_text.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DA50C4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fade_in3","path":"objects/obj_fade_in3/obj_fade_in3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_385038D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oEarthquake","path":"objects/oEarthquake/oEarthquake.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":225.0,"y":384.0,},
