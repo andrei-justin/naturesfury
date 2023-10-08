@@ -1,1 +1,1 @@
-room_goto(rCharacterSelection)
+room_goto(rm_loading_screen)
