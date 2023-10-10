@@ -1,6 +1,6 @@
 //draw_sprite(spr_naming_bg, 0, 625, 100);
 
-draw_sprite_ext(spr_naming_bg, 0, 625, 100, 1, 1, 0, c_black, 0.6);      
+draw_sprite_ext(spr_naming_bg, 0, 625, 100, 1, 1, 0, c_black, 0.6);
 
 draw_set_font(fnt_name_creator);
 draw_set_color(c_white);
