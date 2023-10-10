@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"sconfirmation_no","path":"sprites/sconfirmation_no/sconfirmation_no.yy",},},
@@ -49,12 +49,14 @@
     {"id":{"name":"obj_confirmation_no","path":"objects/obj_confirmation_no/obj_confirmation_no.yy",},},
     {"id":{"name":"sRain","path":"sounds/sRain/sRain.yy",},},
     {"id":{"name":"sMenuBg","path":"sprites/sMenuBg/sMenuBg.yy",},},
-    {"id":{"name":"oFemalePlayer","path":"objects/oFemalePlayer/oFemalePlayer.yy",},},
+    {"id":{"name":"rm_fire_l1","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},},
+    {"id":{"name":"obj_female_player","path":"objects/obj_female_player/obj_female_player.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"oTyphoon","path":"objects/oTyphoon/oTyphoon.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"oMaleCharacter","path":"objects/oMaleCharacter/oMaleCharacter.yy",},},
     {"id":{"name":"fnt_name_creator","path":"fonts/fnt_name_creator/fnt_name_creator.yy",},},
+    {"id":{"name":"obj_chair","path":"objects/obj_chair/obj_chair.yy",},},
     {"id":{"name":"sMainMenu","path":"sprites/sMainMenu/sMainMenu.yy",},},
     {"id":{"name":"sSoundON","path":"sprites/sSoundON/sSoundON.yy",},},
     {"id":{"name":"sCharacterSelectionBg","path":"sprites/sCharacterSelectionBg/sCharacterSelectionBg.yy",},},
@@ -114,6 +116,7 @@
     {"id":{"name":"oCharacterSelectText","path":"objects/oCharacterSelectText/oCharacterSelectText.yy",},},
     {"id":{"name":"sResume","path":"sprites/sResume/sResume.yy",},},
     {"id":{"name":"oFire","path":"objects/oFire/oFire.yy",},},
+    {"id":{"name":"spr_chair","path":"sprites/spr_chair/spr_chair.yy",},},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
   ],
   "RoomOrderNodes": [
@@ -124,6 +127,7 @@
     {"roomId":{"name":"rEarthquakeL1","path":"rooms/rEarthquakeL1/rEarthquakeL1.yy",},},
     {"roomId":{"name":"rSelectedCharacter","path":"rooms/rSelectedCharacter/rSelectedCharacter.yy",},},
     {"roomId":{"name":"rm_loading_screen","path":"rooms/rm_loading_screen/rm_loading_screen.yy",},},
+    {"roomId":{"name":"rm_fire_l1","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
