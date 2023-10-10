@@ -1,6 +1,6 @@
 if(oGameData.picked == 0)
 {
-	instance_change(oFemalePlayer, true);
+	instance_change(obj_female_player, true);
 }
 
 if(oGameData.picked == 1)
