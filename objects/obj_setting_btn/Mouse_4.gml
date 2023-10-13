@@ -1,2 +1,3 @@
-obj_setting.visible = true;
-obj_setting_close.visible = true;
+global.lastRoom = room;
+
+room_goto(rm_settings);
