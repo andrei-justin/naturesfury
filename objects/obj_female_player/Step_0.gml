@@ -43,7 +43,6 @@ if (place_meeting(x, y + vertical_speed, obj_ground)) {
 }
 y = y + vertical_speed
 
-
 // Animation 
 if (!place_meeting(x, y + 1, obj_ground)) {
     sprite_index = spr_female_char_run
