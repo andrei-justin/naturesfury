@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tsGrass",
+  "name": "ts_grass",
   "autoTileSets": [
     {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"atGrass","closed_edge":false,"tiles":[
         47,
