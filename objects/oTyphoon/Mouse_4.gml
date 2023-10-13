@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+global.disaster_type = 3;
 
 // Inherit the parent event
 event_inherited();

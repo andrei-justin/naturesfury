@@ -1,15 +1,15 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_loading_screen",
+  "name": "ls_main_menu_to_character_selection",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_5B323015","path":"rooms/rm_loading_screen/rm_loading_screen.yy",},
-    {"name":"inst_13C4C840","path":"rooms/rm_loading_screen/rm_loading_screen.yy",},
-    {"name":"inst_9C4F324","path":"rooms/rm_loading_screen/rm_loading_screen.yy",},
+    {"name":"inst_5B323015","path":"rooms/ls_main_menu_to_character_selection/ls_main_menu_to_character_selection.yy",},
+    {"name":"inst_13C4C840","path":"rooms/ls_main_menu_to_character_selection/ls_main_menu_to_character_selection.yy",},
+    {"name":"inst_9C4F324","path":"rooms/ls_main_menu_to_character_selection/ls_main_menu_to_character_selection.yy",},
   ],
   "isDnd": false,
   "layers": [
