@@ -1,6 +1,6 @@
 if(oGameData.picked == 0)
 {
-	instance_change(obj_female_char_run, true);
+	sprite_index = spr_female_char_run;
 }
 
 if(oGameData.picked == 1)

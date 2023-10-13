@@ -1,1 +1,1 @@
-room_goto(rm_loading_screen)
+room_goto(ls_main_menu_to_character_selection)
