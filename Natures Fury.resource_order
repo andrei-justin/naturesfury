@@ -30,7 +30,6 @@
     {"name":"GM_Fire_spr_Fire","order":2,"path":"sprites/GM_Fire_spr_Fire/GM_Fire_spr_Fire.yy",},
     {"name":"sPlay","order":10,"path":"sprites/sPlay/sPlay.yy",},
     {"name":"spr_loading_img","order":35,"path":"sprites/spr_loading_img/spr_loading_img.yy",},
-    {"name":"sc_audios","order":1,"path":"scripts/sc_audios/sc_audios.yy",},
     {"name":"spr_door_close","order":33,"path":"sprites/spr_door_close/spr_door_close.yy",},
     {"name":"rm_settings","order":12,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"obj_fade_out2","order":1,"path":"objects/obj_fade_out2/obj_fade_out2.yy",},

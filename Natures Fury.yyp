@@ -48,7 +48,6 @@
     {"id":{"name":"GM_Fire_spr_Fire","path":"sprites/GM_Fire_spr_Fire/GM_Fire_spr_Fire.yy",},},
     {"id":{"name":"sPlay","path":"sprites/sPlay/sPlay.yy",},},
     {"id":{"name":"spr_loading_img","path":"sprites/spr_loading_img/spr_loading_img.yy",},},
-    {"id":{"name":"sc_audios","path":"scripts/sc_audios/sc_audios.yy",},},
     {"id":{"name":"spr_door_close","path":"sprites/spr_door_close/spr_door_close.yy",},},
     {"id":{"name":"rm_settings","path":"rooms/rm_settings/rm_settings.yy",},},
     {"id":{"name":"obj_fade_out2","path":"objects/obj_fade_out2/obj_fade_out2.yy",},},
