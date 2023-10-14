@@ -51,6 +51,7 @@
     {"name":"spr_cursor","order":26,"path":"sprites/spr_cursor/spr_cursor.yy",},
     {"name":"sGround","order":43,"path":"sprites/sGround/sGround.yy",},
     {"name":"oMaleCharacter","order":17,"path":"objects/oMaleCharacter/oMaleCharacter.yy",},
+    {"name":"spr_fire_room_lvl1","order":52,"path":"sprites/spr_fire_room_lvl1/spr_fire_room_lvl1.yy",},
     {"name":"spr_back_btn","order":43,"path":"sprites/spr_back_btn/spr_back_btn.yy",},
     {"name":"fnt_name_creator","order":2,"path":"fonts/fnt_name_creator/fnt_name_creator.yy",},
     {"name":"obj_chair","order":30,"path":"objects/obj_chair/obj_chair.yy",},
