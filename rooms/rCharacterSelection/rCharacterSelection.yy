@@ -30,8 +30,8 @@
       ],"spriteId":{"name":"sCharacterSelectionBg","path":"sprites/sCharacterSelectionBg/sCharacterSelectionBg.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "CharacterSelection",
+    "path": "folders/Rooms/CharacterSelection.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
