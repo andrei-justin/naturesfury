@@ -31,11 +31,24 @@ if (place_meeting(x + horizontal_speed, y, obj_ground)) {
     }
     horizontal_speed = 0
 }
+else if (place_meeting(x + horizontal_speed, y, obj_door_collision)) {
+    while (!place_meeting(x + sign(horizontal_speed), y, obj_door_collision)) {
+        x = x + sign(horizontal_speed)
+    }
+    horizontal_speed = 0
+}
 x = x + horizontal_speed
 
 // Vertical Collision
 if (place_meeting(x, y + vertical_speed, obj_ground)) {
     while (!place_meeting(x, y + sign(vertical_speed), obj_ground)) {
+        y = y + sign(vertical_speed)
+    }
+    vertical_speed = 0
+	on_the_ground = true
+}
+else if (place_meeting(x, y + vertical_speed, obj_door_collision)) {
+    while (!place_meeting(x, y + sign(vertical_speed), obj_door_collision)) {
         y = y + sign(vertical_speed)
     }
     vertical_speed = 0
@@ -53,7 +66,6 @@ if (!place_meeting(x, y + 1, obj_ground)) {
     else {
         image_index = 0
     }
-
 }
 else {
     image_speed = 1
