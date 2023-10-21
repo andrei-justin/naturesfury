@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_loading_screen_selected_disaster",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rm_loading_screen_selected_disaster/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
