@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "ls_main_menu_to_character_selection",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/ls_main_menu_to_character_selection/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

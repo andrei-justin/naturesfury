@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_loading_screen_selected_char",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rm_loading_screen_selected_char/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
