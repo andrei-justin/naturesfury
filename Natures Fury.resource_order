@@ -32,8 +32,8 @@
     {"name":"LevelDesign","order":4,"path":"folders/Sprites/LevelDesign.yy",},
     {"name":"Tilesets","order":7,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
-    {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
     {"name":"Walls","order":8,"path":"folders/Tile Sets/Walls.yy",},
+    {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sconfirmation_no","order":2,"path":"sprites/sconfirmation_no/sconfirmation_no.yy",},
