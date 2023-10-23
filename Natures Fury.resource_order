@@ -37,6 +37,7 @@
     {"name":"LoadingScreens","order":21,"path":"folders/Rooms/LoadingScreens.yy",},
     {"name":"DisasterSelection","order":59,"path":"folders/Objects/DisasterSelection.yy",},
     {"name":"Characters&Players","order":60,"path":"folders/Objects/Characters&Players.yy",},
+    {"name":"Effects","order":61,"path":"folders/Objects/Effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sconfirmation_no","order":2,"path":"sprites/sconfirmation_no/sconfirmation_no.yy",},
