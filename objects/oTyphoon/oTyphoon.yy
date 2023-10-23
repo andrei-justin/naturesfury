@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DisasterSelection",
+    "path": "folders/Objects/DisasterSelection.yy",
   },
   "parentObjectId": {
     "name": "oDisasterSelectionButton",

@@ -1,1 +1,1 @@
-room_goto(rm_loading_screen_selected_char)
+room_goto(rm_ls_selected_char)

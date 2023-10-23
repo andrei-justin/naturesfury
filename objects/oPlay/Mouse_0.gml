@@ -1,1 +1,1 @@
-room_goto(ls_main_menu_to_character_selection)
+room_goto(rm_ls_main_menu_to_character_selection)

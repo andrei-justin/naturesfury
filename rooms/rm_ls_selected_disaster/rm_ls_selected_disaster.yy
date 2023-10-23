@@ -1,15 +1,15 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_loading_screen_selected_disaster",
-  "creationCodeFile": "rooms/rm_loading_screen_selected_disaster/RoomCreationCode.gml",
+  "name": "rm_ls_selected_disaster",
+  "creationCodeFile": "rooms/rm_ls_selected_disaster/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_42BD6A1A_1_1","path":"rooms/rm_loading_screen_selected_disaster/rm_loading_screen_selected_disaster.yy",},
-    {"name":"inst_40D4E3F7","path":"rooms/rm_loading_screen_selected_disaster/rm_loading_screen_selected_disaster.yy",},
-    {"name":"inst_784C8AE8","path":"rooms/rm_loading_screen_selected_disaster/rm_loading_screen_selected_disaster.yy",},
+    {"name":"inst_42BD6A1A_1_1","path":"rooms/rm_ls_selected_disaster/rm_ls_selected_disaster.yy",},
+    {"name":"inst_40D4E3F7","path":"rooms/rm_ls_selected_disaster/rm_ls_selected_disaster.yy",},
+    {"name":"inst_784C8AE8","path":"rooms/rm_ls_selected_disaster/rm_ls_selected_disaster.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -21,8 +21,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "DisasterSelection",
-    "path": "folders/Rooms/DisasterSelection.yy",
+    "name": "LoadingScreens",
+    "path": "folders/Rooms/LoadingScreens.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
