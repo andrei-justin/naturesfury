@@ -49,6 +49,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"LoadingScreens","folderPath":"folders/Rooms/LoadingScreens.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DisasterSelection","folderPath":"folders/Objects/DisasterSelection.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Characters&Players","folderPath":"folders/Objects/Characters&Players.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects","folderPath":"folders/Objects/Effects.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
