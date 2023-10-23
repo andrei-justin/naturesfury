@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "addSettingsButton",
+  "name": "removeSettingsBtn",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

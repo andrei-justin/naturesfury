@@ -1,3 +1,3 @@
 oGameData.picked = 1;
 
-room_goto(rm_loading_screen_select_char);
+room_goto(rm_ls_select_char);
