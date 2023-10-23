@@ -4,7 +4,7 @@
   "name": "spr_female_char_idle",
   "bbox_bottom": 63,
   "bbox_left": 18,
-  "bbox_right": 45,
+  "bbox_right": 48,
   "bbox_top": 3,
   "bboxMode": 2,
   "collisionKind": 2,
