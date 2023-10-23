@@ -105,21 +105,6 @@ if (place_meeting(x, y+2, obj_ground))
 			move_y = abs(move_x)
 			move_x = 0
 	}
-	//from old code
-	else if (place_meeting(x + move_x, y, obj_door_collision)) {
-	    while (!place_meeting(x + sign(move_x), y, obj_door_collision)) {
-	        x = x + sign(move_x)
-	    }
-	    move_x = 0
-	}
-	else if (place_meeting(x, y + move_y, obj_door_collision)) {
-	    while (!place_meeting(x, y + sign(move_y), obj_door_collision)) {
-	        y = y + sign(move_y)
-	    }
-	    move_y = 0
-		//on_the_ground = true
-	}
-	//---
 	
 	if (keyboard_check_pressed(vk_space))
 	{
@@ -130,6 +115,23 @@ else if (move_y < 10)
 {
 	move_y += 1
 }
+
+//from old code
+if (place_meeting(x + move_x, y, obj_door_collision)) {
+	while (!place_meeting(x + sign(move_x), y, obj_door_collision)) {
+	    x = x + sign(move_x)
+	}
+	move_x = 0
+}
+
+if (place_meeting(x, y + move_y, obj_door_collision)) {
+	while (!place_meeting(x, y + sign(move_y), obj_door_collision)) {
+	    y = y + sign(move_y)
+	}
+	move_y = 0
+	//on_the_ground = true
+}
+//---
 
 move_and_collide(move_x, move_y, obj_ground, 4, 0, 0, move_speed, -1)
 
