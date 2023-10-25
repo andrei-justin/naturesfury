@@ -18,7 +18,7 @@ if(oGameData.picked == 1)
 on_the_ground = true
 
 move_speed = 4;
-jump_speed = 8;
+jump_speed = 10;
 
 move_x = 0;
 move_y = 0;

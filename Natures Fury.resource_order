@@ -40,6 +40,8 @@
     {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
     {"name":"Walls","order":8,"path":"folders/Tile Sets/Walls.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"PopupCommands","order":63,"path":"folders/Objects/PopupCommands.yy",},
+    {"name":"Popups","order":11,"path":"folders/Sprites/Popups.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sconfirmation_no","order":2,"path":"sprites/sconfirmation_no/sconfirmation_no.yy",},
