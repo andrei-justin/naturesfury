@@ -2,7 +2,7 @@ text = "Task Instruction";
 page = 0;
 
 xBuffer = 10;
-yBuffer = 10;
+yBuffer = 8;
 
 boxWidth = sprite_get_width(spr_fire_task_instruction) - (2*xBuffer);
 stringHeight = string_height(text);
