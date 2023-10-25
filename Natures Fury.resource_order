@@ -203,6 +203,7 @@
     {"name":"obj_name_creator","order":3,"path":"objects/obj_name_creator/obj_name_creator.yy",},
     {"name":"obj_interact_candle","order":4,"path":"objects/obj_interact_candle/obj_interact_candle.yy",},
     {"name":"spr_selected_character_bg","order":8,"path":"sprites/spr_selected_character_bg/spr_selected_character_bg.yy",},
+    {"name":"spr_task_and_info","order":14,"path":"sprites/spr_task_and_info/spr_task_and_info.yy",},
     {"name":"obj_elevator","order":22,"path":"objects/obj_elevator/obj_elevator.yy",},
     {"name":"spr_setting_quit","order":20,"path":"sprites/spr_setting_quit/spr_setting_quit.yy",},
     {"name":"sPause","order":9,"path":"sprites/sPause/sPause.yy",},
