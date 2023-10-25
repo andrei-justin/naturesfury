@@ -175,7 +175,6 @@
     {"name":"obj_interact","order":1,"path":"objects/obj_interact/obj_interact.yy",},
     {"name":"obj_confirmation_yes","order":6,"path":"objects/obj_confirmation_yes/obj_confirmation_yes.yy",},
     {"name":"obj_fade_out4","order":1,"path":"objects/obj_fade_out4/obj_fade_out4.yy",},
-    {"name":"playAnimation","order":2,"path":"scripts/playAnimation/playAnimation.yy",},
     {"name":"spr_female_char_run","order":3,"path":"sprites/spr_female_char_run/spr_female_char_run.yy",},
     {"name":"spr_ts_soil","order":1,"path":"sprites/spr_ts_soil/spr_ts_soil.yy",},
     {"name":"spr_sofa","order":18,"path":"sprites/spr_sofa/spr_sofa.yy",},

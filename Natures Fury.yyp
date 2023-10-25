@@ -214,7 +214,6 @@
     {"id":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},},
     {"id":{"name":"obj_confirmation_yes","path":"objects/obj_confirmation_yes/obj_confirmation_yes.yy",},},
     {"id":{"name":"obj_fade_out4","path":"objects/obj_fade_out4/obj_fade_out4.yy",},},
-    {"id":{"name":"playAnimation","path":"scripts/playAnimation/playAnimation.yy",},},
     {"id":{"name":"spr_female_char_run","path":"sprites/spr_female_char_run/spr_female_char_run.yy",},},
     {"id":{"name":"spr_ts_soil","path":"sprites/spr_ts_soil/spr_ts_soil.yy",},},
     {"id":{"name":"spr_sofa","path":"sprites/spr_sofa/spr_sofa.yy",},},
