@@ -69,16 +69,7 @@ if (keyboard_check(vk_right)) {
 //elevator mechanism code
 if (global.disaster_type == 1) { //earthquake 
 	if (arrow_down.image_alpha == 1 && keyboard_check_pressed(vk_down)) {
-		instance_deactivate_layer("Collision")
-		image_alpha = 0	
-	}
-
-	if (arrow_up.image_alpha == 1 && keyboard_check_pressed(vk_up)) {
-		instance_deactivate_layer("Collision")
 		image_alpha = 0
-	
-		y -= 250
-	
 	}
 }
 
