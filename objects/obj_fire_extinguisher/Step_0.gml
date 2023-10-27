@@ -4,7 +4,7 @@ if (place_meeting(x,y,obj_player))
 	if(keyboard_check_pressed((ord("E")))){
 		if(myTextbox == noone)
 		{
-			myTextbox = instance_create_layer(x+240, y+10, "Text", obj_interact_candle)
+			myTextbox = instance_create_layer(x-30, y+50, "Text", obj_interact_fire_extinguisher)
 			myTextbox.text = myText
 			myTextbox.creator = self
 			myTextbox.name = myName

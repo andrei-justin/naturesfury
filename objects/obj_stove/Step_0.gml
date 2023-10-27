@@ -4,7 +4,6 @@ if (place_meeting(x,y,obj_player))
 	if(keyboard_check_pressed((ord("E")))){
 		if(myTextbox == noone)
 		{
-			fireman.visible = true;
 			myTextbox = instance_create_layer(x+160, y+50, "Text", obj_interact_stove)
 			myTextbox.text = myText
 			myTextbox.creator = self
@@ -16,7 +15,6 @@ else {
 	if(!place_meeting(x,y,obj_player))
 	{
 		popup_e.visible = false;
-		fireman.visible = false;
 	}
 	if(myTextbox != noone)
 	{
