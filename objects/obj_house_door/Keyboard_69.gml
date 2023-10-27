@@ -1,6 +1,6 @@
 if (!has_been_interacted)
 {
-	if (collision_circle(x, y, radius, obj_female_player, false, true))
+	if (collision_circle(x, y, radius, obj_player, false, true))
 	{
 		has_been_interacted = true;
 		

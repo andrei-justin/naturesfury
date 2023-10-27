@@ -1,0 +1,1 @@
+draw_sprite(spr_fireman, 0, x, y);

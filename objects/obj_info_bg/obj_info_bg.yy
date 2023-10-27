@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obJ_sample",
+  "name": "obj_info_bg",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":69,"eventType":5,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Objects/Furniture.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": {
-    "name": "obj_interact",
-    "path": "objects/obj_interact/obj_interact.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_sample",
-    "path": "sprites/spr_sample/spr_sample.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -2,17 +2,18 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_overloaded_wire",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Furniture",
     "path": "folders/Objects/Furniture.yy",
   },
-  "parentObjectId": {
-    "name": "obj_interact_overloaded_socket",
-    "path": "objects/obj_interact_overloaded_socket/obj_interact_overloaded_socket.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
