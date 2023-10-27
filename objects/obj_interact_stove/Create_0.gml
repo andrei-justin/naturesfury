@@ -1,6 +1,11 @@
-image_speed = 1;
+text = "Task Instruction";
+page = 0;
 
-popup_id = instance_create_layer(x, y+15, layer, obj_popup);
-radius = 18;
+xBuffer = 10;
+yBuffer = 8;
 
-has_been_interacted = false;
+boxWidth = sprite_get_width(spr_task_info) - (2*xBuffer);
+stringHeight = string_height(text);
+creator = noone;
+charCount = 0;
+name = noone;

@@ -1,0 +1,14 @@
+//draw_sprite(spr_task_info, 0, x, y);
+draw_sprite_ext(spr_task_info, 0, x, y, 1, 1, 0, c_black, 0.8);
+draw_set_color(c_white);
+draw_set_font(fnt_fire_instruction);
+
+if (charCount < string_length(text[page])) 
+{
+	charCount += 0.5;
+}
+textPart = string_copy(text[page], 1, charCount);
+
+draw_text(x, y-30, name);
+
+draw_text_ext(x, y+stringHeight-yBuffer, textPart, stringHeight, boxWidth);

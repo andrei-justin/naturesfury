@@ -1,10 +1,16 @@
-if(!has_been_interacted)
+if (keyboard_check_pressed(vk_enter))
 {
-	if(collision_circle(x, y, radius, obj_female_player, false, true))
+	if (charCount < string_length(text[page]))
 	{
-		popup_id.visible = true;
+		charCount = string_length(text[page]);
+	}
+	else if (page+1 < array_length(text))
+	{
+		page+=1;
+		charCount = 0;
 	}
 	else {
-		popup_id.visible = false;
+		instance_destroy();
+		creator.alarm[1] = 1;
 	}
 }
