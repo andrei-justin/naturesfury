@@ -59,7 +59,6 @@
     {"name":"inst_1054181F","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},
     {"name":"inst_798BAC23","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},
     {"name":"inst_202CCA1","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},
-    {"name":"inst_7F288BB0","path":"rooms/rm_fire_l1/rm_fire_l1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -113,7 +112,6 @@
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12236A04","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ref","path":"objects/obj_ref/obj_ref.yy",},"properties":[],"rotation":0.0,"scaleX":1.613839,"scaleY":2.1052632,"x":326.0,"y":376.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D812F39","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_utensils","path":"objects/obj_utensils/obj_utensils.yy",},"properties":[],"rotation":0.0,"scaleX":0.8203125,"scaleY":0.9259259,"x":230.99974,"y":342.0,},
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72D10245","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_washing_disshes_area","path":"objects/obj_washing_disshes_area/obj_washing_disshes_area.yy",},"properties":[],"rotation":0.0,"scaleX":1.652783,"scaleY":1.4832313,"x":210.20898,"y":406.6905,},
-            {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F288BB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fire_extinguisher","path":"objects/obj_fire_extinguisher/obj_fire_extinguisher.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":950.0,"y":382.0,},
           ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
         {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Fire_Hazard_Related","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68F48EDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_overloaded_wire","path":"objects/obj_overloaded_wire/obj_overloaded_wire.yy",},"properties":[],"rotation":0.0,"scaleX":0.72265625,"scaleY":1.046875,"x":612.5,"y":276.0,},

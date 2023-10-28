@@ -8,6 +8,4 @@ if (charCount < string_length(text[page]))
 }
 textPart = string_copy(text[page], 1, charCount);
 
-draw_text(x, y-30, name);
-
 draw_text_ext(x, y+stringHeight-yBuffer, textPart, stringHeight, boxWidth);
