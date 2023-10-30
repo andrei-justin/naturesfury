@@ -41,6 +41,7 @@
     {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
     {"name":"Walls","order":8,"path":"folders/Tile Sets/Walls.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"Camera","order":13,"path":"folders/Objects/Camera.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_x","order":1,"path":"objects/obj_x/obj_x.yy",},
