@@ -1,13 +1,13 @@
 // Camera
-var camera_x_pos = x - (camera_get_view_width(view_camera[0]) / 2)
-var camera_y_pos = y - (camera_get_view_height(view_camera[0]) / 2)
-camera_x_pos = clamp(camera_x_pos, 0, room_width - camera_get_view_width(view_camera[0]))
-camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_camera[0]))
-camera_set_view_pos(view_camera[0], 
-					camera_x_pos,
-					camera_y_pos
+//var camera_x_pos = x - (camera_get_view_width(view_camera[0]) / 2)
+//var camera_y_pos = y - (camera_get_view_height(view_camera[0]) / 2)
+//camera_x_pos = clamp(camera_x_pos, 0, room_width - camera_get_view_width(view_camera[0]))
+//camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_camera[0]))
+//camera_set_view_pos(view_camera[0], 
+//					camera_x_pos,
+//					camera_y_pos
 					
-)
+//)
 
 //movement
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left)
