@@ -35,6 +35,7 @@ if (collision_rectangle(x - (sprite_width / 15),
 		
 		if (obj_x.image_alpha == 1 or elevator_bottom.image_index > elevator_bottom.image_alpha + 3) {
 			obj_player.image_alpha = 1
+			global.hurt = true
 		}
 		
 		//if (image_index > 0) {

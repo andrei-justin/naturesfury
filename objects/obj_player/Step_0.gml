@@ -1,21 +1,13 @@
-// Camera
-//var camera_x_pos = x - (camera_get_view_width(view_camera[0]) / 2)
-//var camera_y_pos = y - (camera_get_view_height(view_camera[0]) / 2)
-//camera_x_pos = clamp(camera_x_pos, 0, room_width - camera_get_view_width(view_camera[0]))
-//camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_camera[0]))
-//camera_set_view_pos(view_camera[0], 
-//					camera_x_pos,
-//					camera_y_pos
-					
-//)
-
 //movement
+
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left)
 move_x *= move_speed
+
 
 if (place_meeting(x, y+2, obj_ground))
 {
 	move_y = 0
+	on_the_ground = true
 	
 	if (!place_meeting(x+move_x, y+2, obj_ground) && place_meeting(x+move_x, y+10, obj_ground))
 	{
@@ -23,7 +15,7 @@ if (place_meeting(x, y+2, obj_ground))
 			move_x = 0
 	}
 	
-	if (keyboard_check_pressed(vk_space))
+	if (keyboard_check_pressed(vk_space) and on_the_ground)
 	{
 		move_y = -jump_speed
 	}
@@ -31,6 +23,7 @@ if (place_meeting(x, y+2, obj_ground))
 else if (move_y < 10)
 {
 	move_y += 1
+	on_the_ground = false
 }
 
 //from old code
@@ -65,12 +58,30 @@ if (keyboard_check(vk_right)) {
 }
 
 
+
+
 //EARTHQUAKE
 //elevator mechanism code
 if (global.disaster_type == 1) { //earthquake 
 	if (arrow_down.image_alpha == 1 && keyboard_check_pressed(vk_down)) {
+		
 		image_alpha = 0
+		alarm[0] = 45
+		
 	}
+	
+	if (global.hurt) {
+
+		sprite_index = spr_female_char_hurt
+		if (image_index == image_number) {
+	
+			alarm[2] = 500
+			image_speed = 0
+		
+		}
+		
+	}
+	
 }
 
 

@@ -1,2 +1,2 @@
 follow_player = true
-shake = false
+global.shake = false

@@ -7,19 +7,32 @@ camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_
 #region //EARTHQUAKE
 if (global.disaster_type == 1) {
 
-	if (keyboard_check(vk_shift)) {
-		follow_player = false
-		shake = true
-		alarm[0] = 300
-	}
+	//if (keyboard_check(vk_shift)) {
+	//	follow_player = false
+	//	shake = true
+	//	alarm[0] = 300
+	//}
 
 	if (keyboard_check(vk_alt)) {
-		follow_player = true
-		shake = true
-		alarm[0] = 300
+		//follow_player = false
+		global.shake = true
+		alarm[0] = 100
+	}
+	
+	if (follow_player && !global.shake) {
+	
+		camera_set_view_pos(view_camera[0], 
+							camera_x_pos,
+							camera_y_pos
+					
+		)
+	
+		//x = obj_player.x
+		//y = obj_player.y
+	
 	}
 
-	if (follow_player && shake) {
+	else if (follow_player && global.shake) {
 		camera_set_view_pos(view_camera[0],
 							camera_x_pos + random_range(-shake_level, shake_level),
 							camera_y_pos + random_range(-shake_level, shake_level)
@@ -31,15 +44,19 @@ if (global.disaster_type == 1) {
 
 
 //CAMERA
-if (follow_player) {
+else {
+
+	if (follow_player) {
 	
-	camera_set_view_pos(view_camera[0], 
-						camera_x_pos,
-						camera_y_pos
+		camera_set_view_pos(view_camera[0], 
+							camera_x_pos,
+							camera_y_pos
 					
-	)
+		)
 	
-	//x = obj_player.x
-	//y = obj_player.y
+		//x = obj_player.x
+		//y = obj_player.y
 	
+	}
+
 }
