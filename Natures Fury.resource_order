@@ -105,6 +105,7 @@
     {"name":"obj_candle","order":16,"path":"objects/obj_candle/obj_candle.yy",},
     {"name":"obj_monitor","order":6,"path":"objects/obj_monitor/obj_monitor.yy",},
     {"name":"spr_bed","order":7,"path":"sprites/spr_bed/spr_bed.yy",},
+    {"name":"spr_female_char_hurt2","order":10,"path":"sprites/spr_female_char_hurt2/spr_female_char_hurt2.yy",},
     {"name":"obj_setting","order":9,"path":"objects/obj_setting/obj_setting.yy",},
     {"name":"obj_overloaded_wire","order":9,"path":"objects/obj_overloaded_wire/obj_overloaded_wire.yy",},
     {"name":"sMainMenu","order":7,"path":"sprites/sMainMenu/sMainMenu.yy",},

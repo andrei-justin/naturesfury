@@ -72,14 +72,12 @@ if (global.disaster_type == 1) { //earthquake
 	
 	if (global.hurt) {
 
-		sprite_index = spr_female_char_hurt
-		if (image_index == image_number) {
+		sprite_index = spr_female_char_hurt2
+		if (image_index >= image_number) {
 	
-			alarm[2] = 500
 			image_speed = 0
 		
 		}
-		
 	}
 	
 }

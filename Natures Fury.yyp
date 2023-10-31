@@ -132,6 +132,7 @@
     {"id":{"name":"obj_candle","path":"objects/obj_candle/obj_candle.yy",},},
     {"id":{"name":"obj_monitor","path":"objects/obj_monitor/obj_monitor.yy",},},
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},},
+    {"id":{"name":"spr_female_char_hurt2","path":"sprites/spr_female_char_hurt2/spr_female_char_hurt2.yy",},},
     {"id":{"name":"obj_setting","path":"objects/obj_setting/obj_setting.yy",},},
     {"id":{"name":"obj_overloaded_wire","path":"objects/obj_overloaded_wire/obj_overloaded_wire.yy",},},
     {"id":{"name":"sMainMenu","path":"sprites/sMainMenu/sMainMenu.yy",},},
