@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_popup",
-  "eventList": [],
+  "name": "obj_socket",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Interact",
-    "path": "folders/Objects/Interact.yy",
+    "name": "Furniture",
+    "path": "folders/Objects/Furniture.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_interact_task",
-    "path": "sprites/spr_interact_task/spr_interact_task.yy",
+    "name": "spr_socket",
+    "path": "sprites/spr_socket/spr_socket.yy",
   },
   "spriteMaskId": null,
   "visible": true,
