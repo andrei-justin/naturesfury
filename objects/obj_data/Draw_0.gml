@@ -1,2 +1,2 @@
-draw_text(x-125, y, string("Data: ") + string(data));
-draw_set_color(c_black)
+draw_text(x+500, y+100, string("Data: ") + string(data));
+draw_set_color(c_white)
