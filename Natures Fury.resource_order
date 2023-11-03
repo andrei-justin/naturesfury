@@ -42,6 +42,7 @@
     {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
     {"name":"Walls","order":8,"path":"folders/Tile Sets/Walls.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"Female","order":11,"path":"folders/Sprites/Characters/Female.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_x","order":1,"path":"objects/obj_x/obj_x.yy",},
@@ -186,7 +187,6 @@
     {"name":"obj_setting_audio_text","order":10,"path":"objects/obj_setting_audio_text/obj_setting_audio_text.yy",},
     {"name":"oPause","order":21,"path":"objects/oPause/oPause.yy",},
     {"name":"spr_candle","order":22,"path":"sprites/spr_candle/spr_candle.yy",},
-    {"name":"spr_female_char_hurt","order":9,"path":"sprites/spr_female_char_hurt/spr_female_char_hurt.yy",},
     {"name":"obj_setting_close","order":12,"path":"objects/obj_setting_close/obj_setting_close.yy",},
     {"name":"spr_brick_wall_white","order":2,"path":"tilesets/spr_brick_wall_white/spr_brick_wall_white.yy",},
     {"name":"obj_stove","order":18,"path":"objects/obj_stove/obj_stove.yy",},

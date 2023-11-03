@@ -55,6 +55,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walls","folderPath":"folders/Tile Sets/Walls.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Female","folderPath":"folders/Sprites/Characters/Female.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
