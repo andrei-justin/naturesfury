@@ -101,6 +101,7 @@
     {"name":"obj_washing_disshes_area","order":21,"path":"objects/obj_washing_disshes_area/obj_washing_disshes_area.yy",},
     {"name":"spr_fire_room_lvl1","order":5,"path":"sprites/spr_fire_room_lvl1/spr_fire_room_lvl1.yy",},
     {"name":"spr_back_btn","order":11,"path":"sprites/spr_back_btn/spr_back_btn.yy",},
+    {"name":"spr_placeholder_player","order":10,"path":"sprites/spr_placeholder_player/spr_placeholder_player.yy",},
     {"name":"fnt_name_creator","order":2,"path":"fonts/fnt_name_creator/fnt_name_creator.yy",},
     {"name":"obj_chair","order":1,"path":"objects/obj_chair/obj_chair.yy",},
     {"name":"spr_setting_btn","order":18,"path":"sprites/spr_setting_btn/spr_setting_btn.yy",},
@@ -248,6 +249,7 @@
     {"name":"obj_bed","order":1,"path":"objects/obj_bed/obj_bed.yy",},
     {"name":"spr_female_character_idle","order":4,"path":"sprites/spr_female_character_idle/spr_female_character_idle.yy",},
     {"name":"sMmBg","order":3,"path":"sprites/sMmBg/sMmBg.yy",},
+    {"name":"obj_office_table","order":28,"path":"objects/obj_office_table/obj_office_table.yy",},
     {"name":"spr_ts_brick_wall","order":3,"path":"sprites/spr_ts_brick_wall/spr_ts_brick_wall.yy",},
     {"name":"obj_tips","order":6,"path":"objects/obj_tips/obj_tips.yy",},
     {"name":"spr_hallway","order":7,"path":"sprites/spr_hallway/spr_hallway.yy",},
@@ -262,6 +264,7 @@
     {"name":"sResume","order":23,"path":"sprites/sResume/sResume.yy",},
     {"name":"oFire","order":1,"path":"objects/oFire/oFire.yy",},
     {"name":"spr_chair","order":1,"path":"sprites/spr_chair/spr_chair.yy",},
+    {"name":"spr_office_table","order":35,"path":"sprites/spr_office_table/spr_office_table.yy",},
     {"name":"rMainMenu","order":1,"path":"rooms/rMainMenu/rMainMenu.yy",},
   ],
 }
