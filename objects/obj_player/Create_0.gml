@@ -1,10 +1,15 @@
-if(oGameData.picked == 0)
+if (global.default_player == 1) {
+
+	sprite_index = spr_female_char_idle
+
+}
+else if(oGameData.picked == 0)
 {
 	//instance_change(obj_female_player, true);
 	sprite_index = spr_female_char_idle
 }
 
-if(oGameData.picked == 1)
+else if(oGameData.picked == 1)
 {
 	instance_change(oMalePlayer, true);
 }
@@ -18,7 +23,7 @@ if(oGameData.picked == 1)
 on_the_ground = true
 
 move_speed = 4;
-jump_speed = 10;
+jump_speed = 20;
 
 move_x = 0;
 move_y = 0;
