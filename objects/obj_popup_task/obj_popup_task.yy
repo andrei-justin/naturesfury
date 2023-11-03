@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_popup",
+  "name": "obj_popup_task",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_interact_task",
-    "path": "sprites/spr_interact_task/spr_interact_task.yy",
+    "name": "spr_interact",
+    "path": "sprites/spr_interact/spr_interact.yy",
   },
   "spriteMaskId": null,
   "visible": true,
