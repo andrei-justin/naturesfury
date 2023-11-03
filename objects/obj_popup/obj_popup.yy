@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_interact_task",
-    "path": "sprites/spr_interact_task/spr_interact_task.yy",
+    "name": "spr_interact",
+    "path": "sprites/spr_interact/spr_interact.yy",
   },
   "spriteMaskId": null,
   "visible": true,

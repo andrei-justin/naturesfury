@@ -10,7 +10,13 @@
 		charCount = 0;
 	}
 	else {
-		instance_destroy();
-		creator.alarm[1] = 1;
+		if(obj_data.data != 1){
+			task = instance_create_layer(x, y, "Character", obj_task_btn)
+		}
+		else{
+			instance_destroy()
+			creator.alarm[1] = 1;
+		}
+		
 	}
 }
