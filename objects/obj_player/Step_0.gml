@@ -53,7 +53,11 @@ if (keyboard_check(vk_right)) {
 } else if (keyboard_check(vk_left)) {
 	image_xscale = -1
 	sprite_index = spr_female_char_run
-} else {
+} else if (keyboard_check(vk_down)) {
+	sprite_index = spr_female_char_crouch
+} 
+
+else {
 	sprite_index = spr_female_char_idle
 }
 
