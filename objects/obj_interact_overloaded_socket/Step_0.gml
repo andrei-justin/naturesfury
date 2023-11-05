@@ -11,6 +11,7 @@
 	}
 	else {
 		if(obj_data.data != 1){
+			global.task = 1;
 			task = instance_create_layer(x, y, "Character", obj_task_btn)
 		}
 		else{

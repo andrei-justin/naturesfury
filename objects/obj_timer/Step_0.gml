@@ -13,3 +13,8 @@ if(showTime == 0 && obj_data.data == noone){
 	obj_player.x = 600;
 	obj_player.y = 250;
 }
+else if(showTime == 0 && obj_data.candle_data == noone){
+	room_goto(rm_fire_l1)
+	obj_player.x = 216;
+	obj_player.y = 277;
+}
