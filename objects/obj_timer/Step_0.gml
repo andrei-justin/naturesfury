@@ -18,3 +18,8 @@ else if(showTime == 0 && obj_data.candle_data == noone){
 	obj_player.x = 216;
 	obj_player.y = 277;
 }
+else if(showTime == 0 && obj_data.stove_data == noone){
+	room_goto(rm_fire_l1)
+	obj_player.x = 288;
+	obj_player.y = 422;
+}
