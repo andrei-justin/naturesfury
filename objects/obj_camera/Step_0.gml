@@ -6,6 +6,16 @@ camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_
 
 #region //EARTHQUAKE
 if (global.disaster_type == 1) {
+	
+	if (!global.shake) {
+	
+		alarm[1] = 300
+	
+	} else if (global.shake) {
+	
+		alarm[2] = 300
+	
+	}
 
 	if (keyboard_check(vk_alt)) {
 		//follow_player = false
