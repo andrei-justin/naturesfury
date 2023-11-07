@@ -1,6 +1,6 @@
 //movement
 
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left)
+move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 move_x *= move_speed
 
 
@@ -47,13 +47,13 @@ move_and_collide(move_x, move_y, obj_ground, 4, 0, 0, move_speed, -1)
 
 
 //animation
-if (keyboard_check(vk_right)) {
+if (keyboard_check(ord("D"))) {
 	image_xscale = 1
 	sprite_index = spr_female_char_run
-} else if (keyboard_check(vk_left)) {
+} else if (keyboard_check(ord("A"))) {
 	image_xscale = -1
 	sprite_index = spr_female_char_run
-} else if (keyboard_check(vk_down)) {
+} else if (keyboard_check(ord("S"))) {
 	sprite_index = spr_female_char_crouch
 } 
 
@@ -77,12 +77,13 @@ if (global.disaster_type == 1) { //earthquake
 	if (global.hurt) {
 
 		sprite_index = spr_female_char_hurt
-		if (image_index == image_number) {
-	
-			alarm[2] = 500
-			image_speed = 0
+		room_restart()
 		
-		}
+		//if (image_index == image_number) {
+	
+		//	global.hurt = false
+		
+		//}
 		
 	}
 	

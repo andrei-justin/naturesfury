@@ -1,8 +1,19 @@
 #region RIGHT GLASSDOOR
 
+if (opened) {
+
+	instance_deactivate_object(right_gd)
+
+} else {
+
+	instance_activate_object(right_gd)
+
+}
+
+
 if (collision_rectangle(
 
-	right_gd.x - (right_gd.sprite_width / 2),
+	right_gd.x - (right_gd.sprite_width),
 	right_gd.y - (right_gd.sprite_height / 2),
 	right_gd.x + (right_gd.sprite_width / 2),
 	right_gd.y + (right_gd.sprite_height / 2),
@@ -12,17 +23,19 @@ if (collision_rectangle(
 	
 ) and id == right_gd) {
 	
-	if (right_gd.x > obj_player.x) {
+	instance_deactivate_object(right_gd)
+	//if (right_gd.x > obj_player.x) {
 	
-		obj_player.x = right_gd.x - ((right_gd.sprite_width / 2) + (obj_player.sprite_width / 2))
+	//	obj_player.x = clamp(obj_player.x, camera_get_view_border_x(view_camera[0]), right_gd.x - ((right_gd.sprite_width / 2) + (obj_player.sprite_width / 2)))
 	
-	}
+	//}
 	
-	if (right_gd.x < obj_player.x) {
+	//if (right_gd.x < obj_player.x) {
 	
-		obj_player.x = right_gd.x + ((right_gd.sprite_width / 2) + (obj_player.sprite_width / 2))
+	//	obj_player.x = clamp(obj_player.x, camera_get_view_border_x(view_camera[0]), right_gd.x + ((right_gd.sprite_width / 2) + (obj_player.sprite_width / 2)))
 	
-	}
+	//}
+	
 
 }
 #endregion
