@@ -13,6 +13,6 @@ else if(global.task == 2){
 else if(global.task == 3){
 	global.lastRoom = room;
 	global.ps_stove_fire = part_system_create(StoveFire)
-	part_system_position(global.ps_stove_fire,x+60,y-75)
+	part_system_position(global.ps_stove_fire,x+30,y-75)
 	room_goto(rm_fire_l1_stove)
 }
