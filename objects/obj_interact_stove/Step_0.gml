@@ -10,7 +10,13 @@ if (keyboard_check_pressed(vk_enter))
 		charCount = 0;
 	}
 	else {
-		instance_destroy();
-		creator.alarm[1] = 1;
+		if(obj_data.stove_data != 1){
+			global.task = 3;
+			task = instance_create_layer(x, y, "Character", obj_task_btn)
+		}
+		else{
+			instance_destroy()
+			creator.alarm[1] = 1;
+		}
 	}
 }

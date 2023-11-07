@@ -6,3 +6,7 @@ if(candle_data == 1 && !obj_score.task_incremented_candle) {
 	obj_score.task_completed_candle += 25;
     obj_score.task_incremented_candle = true;
 }
+if(stove_data == 1 && !obj_score.task_incremented_stove) {
+	obj_score.task_completed_stove += 25;
+	obj_score.task_incremented_stove = true;
+}
