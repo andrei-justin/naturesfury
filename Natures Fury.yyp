@@ -61,7 +61,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_x","path":"objects/obj_x/obj_x.yy",},},
@@ -151,6 +151,7 @@
     {"id":{"name":"obj_fade_in2","path":"objects/obj_fade_in2/obj_fade_in2.yy",},},
     {"id":{"name":"spr_tips_typhoon_l1","path":"sprites/spr_tips_typhoon_l1/spr_tips_typhoon_l1.yy",},},
     {"id":{"name":"spr_ss_elevator","path":"sprites/spr_ss_elevator/spr_ss_elevator.yy",},},
+    {"id":{"name":"shakeScreen","path":"scripts/shakeScreen/shakeScreen.yy",},},
     {"id":{"name":"obj_window_border2","path":"objects/obj_window_border2/obj_window_border2.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
     {"id":{"name":"Candle","path":"particles/Candle/Candle.yy",},},
@@ -353,6 +354,7 @@
     {"roomId":{"name":"rm_fire_l1_overloaded_socket_task","path":"rooms/rm_fire_l1_overloaded_socket_task/rm_fire_l1_overloaded_socket_task.yy",},},
     {"roomId":{"name":"rm_fire_l1_candle","path":"rooms/rm_fire_l1_candle/rm_fire_l1_candle.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

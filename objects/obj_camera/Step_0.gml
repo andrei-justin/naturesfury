@@ -7,22 +7,6 @@ camera_y_pos = clamp(camera_y_pos, 0, room_height - camera_get_view_height(view_
 #region //EARTHQUAKE
 if (global.disaster_type == 1) {
 	
-	if (!global.shake) {
-	
-		alarm[1] = 300
-	
-	} else if (global.shake) {
-	
-		alarm[2] = 300
-	
-	}
-
-	if (keyboard_check(vk_alt)) {
-		//follow_player = false
-		global.shake = true
-		alarm[0] = 100
-	}
-	
 	if (follow_player && !global.shake) {
 	
 		camera_set_view_pos(view_camera[0], 
@@ -30,18 +14,26 @@ if (global.disaster_type == 1) {
 							camera_y_pos
 					
 		)
-	
-		//x = obj_player.x
-		//y = obj_player.y
-	
+		
 	}
-
 	else if (follow_player && global.shake) {
-		camera_set_view_pos(view_camera[0],
-							camera_x_pos + random_range(-shake_level, shake_level),
-							camera_y_pos + random_range(-shake_level, shake_level)
+	
+		shakeScreen(view_camera[0],
+					camera_x_pos,
+					camera_y_pos,
+					5
 		)
+	
 	}
+	
+	alarm[1] = 100
+	alarm[2] = 100
+ 
+	//if (keyboard_check(vk_alt)) {
+	//	//follow_player = false
+	//	global.shake = true
+	//	alarm[0] = 100
+	//}
 
 }
 #endregion
@@ -57,9 +49,6 @@ else {
 							camera_y_pos
 					
 		)
-	
-		//x = obj_player.x
-		//y = obj_player.y
 	
 	}
 
